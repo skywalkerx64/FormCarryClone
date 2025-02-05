@@ -5,10 +5,3 @@ import { RouterView } from 'vue-router'
 <template>
   <RouterView />
 </template>
-
-<style>
-* {
-  font-family: Inter;
-  font-weight: 400;
-}
-</style>
