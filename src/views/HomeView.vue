@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import AppFooter from '@/components/AppFooter.vue'
-import ToggleTheme from '@/components/Utils/ToggleTheme.vue'
+// import AppFooter from '@/components/Navigation/AppFooter.vue'
+import NavBar from '@/components/Navigation/NavBar.vue'
 </script>
 
 <template>
-  <ToggleTheme />
-  <body class="bg-muted/10">
-    <span class="">Hello</span>
+  <body class="bg-muted/10 min-h-screen h-screen">
+    <NavBar />
+    <!-- <AppFooter /> -->
   </body>
-  <AppFooter />
 </template>
