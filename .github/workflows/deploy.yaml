@@ -15,4 +15,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           passphrase: ${{ secrets.PASSPHRASE }}
-          script: cd /var/www/TwerkNet/ && git pull
+          script: cd /var/www/TwerkNet/ && git pull && ls -a
